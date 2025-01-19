@@ -278,6 +278,12 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll
+  jekyll-feed
+  jekyll-redirect-from
+  jekyll-sitemap
+  jemoji
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.2.19
