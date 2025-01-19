@@ -12,6 +12,7 @@ layout: compress
   </head>
 
   <body>
+
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
@@ -24,14 +25,7 @@ layout: compress
       </footer>
     </div>
 
-    <!-- Dark mode toggle switch
-    <label class="switch">
-      <input type="checkbox" id="dark-mode-toggle">
-      <span class="slider round"></span>
-    </label> -->
-
-    <!-- Include scripts -->
     {% include scripts.html %}
-    <script src="{{ '/assets/js/dark-mode-toggle.js' | relative_url }}"></script>
+
   </body>
 </html>
